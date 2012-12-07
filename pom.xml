@@ -24,4 +24,6 @@
 		<version>2.1.0</version>
       </dependency>
   </dependencies>
+  <name>blogbench-redis-plugin</name>
+  <url>http://liweizhao.github.com/blogbench-redis-plugin/</url>  
 </project>

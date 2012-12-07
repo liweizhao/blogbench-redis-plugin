@@ -18,6 +18,9 @@ import com.netease.webbench.blogbench.misc.BbTestOptions;
 import com.netease.webbench.blogbench.misc.ParameterGenerator;
 import com.netease.webbench.common.DbOptions;
 
+/**
+ * @author LI WEIZHAO
+ */
 public class RedisDataLoader extends SimpleDataLoader {
 		
 	public RedisDataLoader(DbOptions dbOpt, BbTestOptions bbTestOpt,
@@ -45,7 +48,6 @@ public class RedisDataLoader extends SimpleDataLoader {
 	public String getLoadSummary() {
 		StringBuilder buf = new StringBuilder(512);
 		buf.append("Test table name: Blog\n")
-			.append("Test table engine: " + bbTestOpt.getTbEngine() + "\n")
 			.append("Test table size: " + bbTestOpt.getTbSize() + "\n")
 			.append("Total time waste: " + statis.getTotalTimeWaste() + " milliseconds\n")
 			.append("Create table waste: " + statis.getCreateTableTimeWaste() + "  milliseconds\n")

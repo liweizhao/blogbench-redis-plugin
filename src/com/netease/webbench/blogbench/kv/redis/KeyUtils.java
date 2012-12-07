@@ -12,6 +12,11 @@
  */
 package com.netease.webbench.blogbench.kv.redis;
 
+/**
+ * utils of key design for redis
+ * 
+ * @author LI WEIZHAO
+ */
 public abstract class KeyUtils {
 	static final String UID = "uid:";
 	static final String BID = "bid:";
